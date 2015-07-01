@@ -5171,6 +5171,71 @@ height: 100%;*/ }
       text-align: center; }
 
 /*menu*/
+.bar {
+  position: fixed;
+  right: 5%;
+  top: 10%;
+  height: 6px;
+  width: 30px;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.75); }
+  .bar:before {
+    transition: all .25s;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: -8px;
+    height: 6px;
+    width: 30px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.75); }
+  .bar:after {
+    transition: all .25s;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 8px;
+    height: 6px;
+    width: 30px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.75); }
+
+.menu nav {
+  background-color: transparent; }
+  .menu nav ul {
+    list-style: none; }
+    .menu nav ul h5 {
+      color: transparent; }
+
+.boton-menu ul {
+  text-align: center;
+  list-style: none;
+  text-decoration: none;
+  position: absolute;
+  right: 1%;
+  background-color: black;
+  padding: 1%;
+  margin: 0;
+  top: 15%;
+  z-index: 100000; }
+  .boton-menu ul h5 {
+    color: white !important;
+    margin: 0;
+    padding: 7% 2%; }
+.boton-menu .bar {
+  background-color: transparent;
+  transition: all .25s; }
+  .boton-menu .bar:before {
+    transition: all .25s;
+    content: "";
+    transform: rotate(45deg);
+    top: -0px; }
+  .boton-menu .bar:after {
+    transition: all .25s;
+    content: "";
+    transform: rotate(-45deg);
+    top: 0px; }
+
 /*about*/
 .about {
   background-image: url(http://static.habitissimo.es/photos/project/original/muestra-marmol-emperador_771500.jpg);

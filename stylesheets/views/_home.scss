@@ -56,6 +56,83 @@
     }
 }
  /*menu*/
+.bar {
+    position:fixed;
+    right: 5%;
+    top: 10%;
+    height:6px;
+    width:30px;
+    border-radius:15px;
+    background-color:rgba(255,255,255,0.75);
+    &:before {
+      transition:all .25s;
+      content:"";
+      position:absolute;
+      left:0;
+      top:-8px;
+      height:6px;
+      width:30px;
+      border-radius:15px;
+      background-color:rgba(255,255,255,0.75);
+    }
+    &:after {
+      transition:all .25s;
+      content:"";
+      position:absolute;
+      left:0;
+      top:8px;
+      height:6px;
+      width:30px;
+      border-radius:15px;
+      background-color:rgba(255,255,255,0.75);
+    }
+  }
+.menu nav{
+   background-color: transparent;
+   ul {
+     list-style: none;
+     h5 {
+       color: transparent;
+     }
+   }
+}
+
+.boton-menu{
+  ul {
+    text-align: center;
+    list-style: none;
+    text-decoration: none;
+    position: absolute;
+    right: 1%;
+    background-color: black;
+    padding: 1%;
+    margin: 0;
+    top: 15%;
+    z-index: 100000;
+    h5 {
+      color: white !important;
+      margin: 0;
+      padding: 7% 2%;
+    }
+  }
+  .bar {
+      background-color:transparent;
+      transition:all .25s;
+        &:before {
+          transition:all .25s;
+          content:"";
+          transform:rotate(45deg);
+          top:-0px;
+        }
+        &:after {
+          transition:all .25s;
+          content:"";
+          transform:rotate(-45deg);
+          top:0px;
+        }
+      }  
+
+  }
 
 /*about*/
 .about{
