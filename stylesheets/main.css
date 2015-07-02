@@ -5278,6 +5278,15 @@ height: 100%;*/ }
   border: 1px solid white; }
 
 /*galleria*/
+.galeria {
+  text-align: center; }
+  .galeria h1 {
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    padding: 4%;
+    color: white; }
+
 /*productos*/
 .productos {
   margin: 0;
