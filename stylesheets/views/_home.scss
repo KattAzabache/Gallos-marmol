@@ -115,6 +115,7 @@ http://static.panoramio.com/photos/large/17034160.jpg*/
     z-index: 100000;
     h5 {
       color: white !important;
+      border-bottom: 1px solid;
       margin: 0;
       padding: 7% 2%;
     }
@@ -162,6 +163,7 @@ http://static.panoramio.com/photos/large/17034160.jpg*/
               }
               p{
               	text-align: justify;
+                color: white;
               }
             }
           }
@@ -253,7 +255,20 @@ section.Quarries {
      }
   }
 }
-
+@media screen and (max-width: 470px){
+  section.Quarries .carrusel {
+    width: 100%;
+    height: 400px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 330px){
+  section.Quarries .carrusel {
+    width: 100%;
+    height: 370px;
+    text-align: center;
+  }
+}
 /*contactanos*/
 
 .contact{
@@ -261,7 +276,7 @@ section.Quarries {
     background-size: cover;
     background-attachment: fixed;
 	.contactanos{
-		padding: 10% 5%;
+		padding: 10% 5% 3%;
         background-color: rgba(0, 0, 0, 0.62);
 		form{
 			input {
@@ -283,5 +298,12 @@ section.Quarries {
           width: 100%;
           height: 250px;
         }
+    .footer{
+      text-align: center;
+      padding: 5%;
+        hr {
+          width: 50%;
+        }
+    }
 	}
 }

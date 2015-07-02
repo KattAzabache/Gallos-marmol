@@ -5224,6 +5224,7 @@ height: 100%;*/ }
   z-index: 100000; }
   .boton-menu ul h5 {
     color: white !important;
+    border-bottom: 1px solid;
     margin: 0;
     padding: 7% 2%; }
 .boton-menu .bar {
@@ -5261,7 +5262,8 @@ height: 100%;*/ }
         .about .color .clases .descripcion i {
           font-size: 50px; }
         .about .color .clases .descripcion p {
-          text-align: justify; }
+          text-align: justify;
+          color: white; }
 
 /*galleria*/
 /*productos*/
@@ -5333,13 +5335,23 @@ section.Quarries {
         width: 100%;
         height: 100%; }
 
+@media screen and (max-width: 470px) {
+  section.Quarries .carrusel {
+    width: 100%;
+    height: 400px;
+    text-align: center; } }
+@media screen and (max-width: 330px) {
+  section.Quarries .carrusel {
+    width: 100%;
+    height: 370px;
+    text-align: center; } }
 /*contactanos*/
 .contact {
   background-image: url(http://www.grupomos.com/demo/gallery/canteras/gr/cantera_amarillo_trianagr.jpg);
   background-size: cover;
   background-attachment: fixed; }
   .contact .contactanos {
-    padding: 10% 5%;
+    padding: 10% 5% 3%;
     background-color: rgba(0, 0, 0, 0.62); }
     .contact .contactanos form input {
       width: 100%;
@@ -5355,5 +5367,10 @@ section.Quarries {
       border: 0;
       width: 100%;
       height: 250px; }
+    .contact .contactanos .footer {
+      text-align: center;
+      padding: 5%; }
+      .contact .contactanos .footer hr {
+        width: 50%; }
 
 /*# sourceMappingURL=main.css.map */
