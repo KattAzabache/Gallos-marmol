@@ -5131,8 +5131,11 @@ button.close {
   margin: 0; }
 
 /*home*/
+/*http://i139.photobucket.com/albums/q289/patxi75/P1070082.jpg
+http://www.filmingalmeria.es/Servicios/Informacion/Informacion.nsf/A007EF581E87ED36C1257D89003DF127/$file/almeria-cine-localizaciones-macael-industria-actual-natural-marmol-4.jpg
+http://static.panoramio.com/photos/large/17034160.jpg*/
 .home {
-  background-image: url(http://www.fondobook.com/wp-content/uploads/2011/11/e_hd169_IMG_5512-2.jpg);
+  background-image: url(http://static.panoramio.com/photos/original/23198065.jpg);
   background-size: cover;
   width: 100%;
   height: 100%;
@@ -5178,7 +5181,8 @@ height: 100%;*/ }
   height: 6px;
   width: 30px;
   border-radius: 15px;
-  background-color: rgba(255, 255, 255, 0.75); }
+  background-color: rgba(255, 255, 255, 0.75);
+  z-index: 10000000; }
   .bar:before {
     transition: all .25s;
     content: "";
@@ -5315,11 +5319,41 @@ section.Quarries {
   text-align: center; }
   section.Quarries .carrusel {
     width: 100%;
-    height: 500px; }
+    height: 600px;
+    text-align: center; }
+    section.Quarries .carrusel h1 {
+      position: absolute;
+      z-index: 100;
+      width: 100%;
+      padding: 4%;
+      color: white; }
     section.Quarries .carrusel .carousel-inner {
       height: 100%; }
       section.Quarries .carrusel .carousel-inner img {
         width: 100%;
         height: 100%; }
+
+/*contactanos*/
+.contact {
+  background-image: url(http://www.grupomos.com/demo/gallery/canteras/gr/cantera_amarillo_trianagr.jpg);
+  background-size: cover;
+  background-attachment: fixed; }
+  .contact .contactanos {
+    padding: 10% 5%;
+    background-color: rgba(0, 0, 0, 0.62); }
+    .contact .contactanos form input {
+      width: 100%;
+      padding: 1%;
+      margin: 1%; }
+    .contact .contactanos form textarea {
+      width: 100%;
+      padding: 1%;
+      margin: 1%; }
+    .contact .contactanos form button.submit {
+      margin: 1%; }
+    .contact .contactanos iframe {
+      border: 0;
+      width: 100%;
+      height: 250px; }
 
 /*# sourceMappingURL=main.css.map */
