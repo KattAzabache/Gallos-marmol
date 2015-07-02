@@ -5130,6 +5130,13 @@ button.close {
 .row {
   margin: 0; }
 
+a {
+  text-decoration: none; }
+
+button {
+  background-color: transparent;
+  border: transparent; }
+
 /*home*/
 /*http://i139.photobucket.com/albums/q289/patxi75/P1070082.jpg
 http://www.filmingalmeria.es/Servicios/Informacion/Informacion.nsf/A007EF581E87ED36C1257D89003DF127/$file/almeria-cine-localizaciones-macael-industria-actual-natural-marmol-4.jpg
@@ -5215,7 +5222,7 @@ height: 100%;*/ }
   text-align: center;
   list-style: none;
   text-decoration: none;
-  position: absolute;
+  position: fixed;
   right: 1%;
   background-color: black;
   padding: 1%;
@@ -5258,12 +5265,17 @@ height: 100%;*/ }
       .about .color .clases .descripcion {
         width: 100%;
         padding: 8%;
-        border: 1px solid white; }
+        border: 1px solid white;
+        color: white; }
         .about .color .clases .descripcion i {
-          font-size: 50px; }
+          font-size: 50px;
+          color: white; }
         .about .color .clases .descripcion p {
           text-align: justify;
           color: white; }
+
+.clases:hover {
+  border: 1px solid white; }
 
 /*galleria*/
 /*productos*/
