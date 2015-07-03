@@ -13,9 +13,9 @@
   <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="stylesheets/main.css">	
 </head>
-<body>
-	<div class="container-fluid">
-     	 <section class="home">
+<body class="loading">>
+	<div class="container-fluid load">
+     	 <section class="home" id="home">
      	       <div class="logo">
      	    	  <img src="img/logo.png">
      	       </div>
@@ -24,14 +24,14 @@
                           <div class="bonton-cambiable"><div class="bar"></div></div>
                             <nav>
                               <ul>
-                                  <li><a href=""><h5>HOME</h5></a></li>
-                                  <li><a href=""><h5>ABOUT US</h5></a></li>
-                                  <li><a href=""><h5>GALLERY</h5></a></li>
-                                  <li><a href=""><h5>PRODUCTS</h5></a></li>
-                                  <li><a href=""><h5>FINISHES</h5></a></li>
-                                  <li><a href=""><h5>QUARRIES FACTORY</h5></a></li>
-                                  <li><a href=""><h5>CONTACT</h5></a></li>
-                                  <li><a href=""><h5>BLOG</h5></a></li>
+                                  <li><a href="#home"><h5>HOME</h5></a></li>
+                                  <li><a href="#about"><h5>ABOUT US</h5></a></li>
+                                  <li><a href="#gallery"><h5>GALLERY</h5></a></li>
+                                  <li><a href="#products"><h5>PRODUCTS</h5></a></li>
+                                  <li><a href="#finishes"><h5>FINISHES</h5></a></li>
+                                  <li><a href="#factory"><h5>QUARRIES FACTORY</h5></a></li>
+                                  <li><a href="#contact"><h5>CONTACT</h5></a></li>
+                                  <li><a href="#blog"><h5>BLOG</h5></a></li>
                               </ul>
                             </nav>  
                   </div>
@@ -51,7 +51,7 @@
                  </div>
              </div>	 	
   	   </section>
-  	   <section class="about">
+  	   <section class="about" id="about">
      	 	 <div class="row color">
      	 		<div class="col-md-12">
      	 			<h1 style="font-family: 'Old Standard TT', serif;">ABOUT US</h1>
@@ -88,7 +88,7 @@
      	 		</div>
      	 	 </div>
   	   </section>
-  	   <section class="galeria"> 
+  	   <section class="galeria" id="gallery"> 
            <h1>Gallery</h1> 
            <div id="myCarousel" class="carousel slide" data-ride="carousel">           
              <!-- Indicators -->
@@ -129,7 +129,7 @@
              </a>
            </div>           
   	   </section>
-       <section class="productos">
+       <section class="productos" id="products">
       	 	<h1>Products.</h1>
       	 	<div class="row diseños">
       	 		<div class="col-lg-3 col-md-3 col-xs-6 grid">
@@ -182,12 +182,12 @@
       	 		</div>
       	 	</div>
        </section>
-       <section class="Finishes">
+       <section class="Finishes" id="finishes">
            <div class="texto">
            	<span>Finishes</span>
            </div>       	   
        </section>
-       <section class="Quarries">  
+       <section class="Quarries" id="factory">  
          	  <div class="carrusel">
          	     <h1>Quarries and Factory</h1>
                <div id="myCarousel" class="carousel slide" data-ride="carousel">             
@@ -242,7 +242,7 @@
                </div>
          	  </div>
        </section>
-       <section class="contact">  
+       <section class="contact" id="contact">  
          	  <div class="row contactanos">
          	  	<div class="col-lg-6 col-md-6 col-xs-12">
                   <form>

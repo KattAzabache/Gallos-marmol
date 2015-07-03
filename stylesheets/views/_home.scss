@@ -19,10 +19,23 @@ button{
   background-color: transparent;
   border: transparent;
 }
+/*loading*/
+.loading {
+    background: url(http://mclass.vn/images/video_loading.gif) no-repeat center center;
+    background-size: cover;
+}
+.load {
+    opacity: 0;
+    -webkit-transition:opacity .6s;
+    -moz-transition:opacity .6s;
+    -o-transition:opacity .6s;
+    transition: opacity .6s;
+}
+.loaded .load {
+    opacity: 1;
+}
+
 /*home*/
-/*http://i139.photobucket.com/albums/q289/patxi75/P1070082.jpg
-http://www.filmingalmeria.es/Servicios/Informacion/Informacion.nsf/A007EF581E87ED36C1257D89003DF127/$file/almeria-cine-localizaciones-macael-industria-actual-natural-marmol-4.jpg
-http://static.panoramio.com/photos/large/17034160.jpg*/
 .home{
   background-image: url(http://static.panoramio.com/photos/original/23198065.jpg);
   background-size: cover;
@@ -258,7 +271,9 @@ http://static.panoramio.com/photos/large/17034160.jpg*/
      }
   }
 }
-
+.Finishes .texto span:hover{
+  background-color: rgba(237, 234, 234, 0.38);
+}
 /*quarries*/
 section.Quarries {
   text-align: center;
