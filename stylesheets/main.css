@@ -5138,20 +5138,20 @@ button {
   border: transparent; }
 
 /*loading*/
-/*.loading {
-    background: url(http://mclass.vn/images/video_loading.gif) no-repeat center center;
-    background-size: cover;
-}
+.loading {
+  background: url(http://hasharat.co.il/images/site/loading.gif) no-repeat center center;
+  background-size: cover; }
+
 .load {
-    opacity: 0;
-    -webkit-transition:opacity .6s;
-    -moz-transition:opacity .6s;
-    -o-transition:opacity .6s;
-    transition: opacity .6s;
-}
+  opacity: 0;
+  -webkit-transition: opacity .6s;
+  -moz-transition: opacity .6s;
+  -o-transition: opacity .6s;
+  transition: opacity .6s; }
+
 .loaded .load {
-    opacity: 1;
-}*/
+  opacity: 1; }
+
 /*home*/
 .home {
   /*  background-image: url(http://static.panoramio.com/photos/original/23198065.jpg);
